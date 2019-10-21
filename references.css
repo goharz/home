@@ -1,0 +1,87 @@
+body
+{
+	background-image: url("Images/ref.background.jpg");
+	background-position: center;
+    margin: 0;	
+}
+  /* Intentionally left out the declaration “cover” as without it gives a cool background effect */
+  
+h1
+{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	font-size: 800%;
+	font-style: oblique;
+	margin-top: 15%;
+}
+
+/* Intentionally set text size as “800%” as it covers the page and is creatively different */
+h2
+{
+	text-align:left;
+	color:black;
+	font-weight:bold;
+	font-size: 180%;
+	font-style: oblique;
+	margin-top: 27%;
+}
+h3, h4, h5, h6, h7
+{
+	text-align:left;
+	color:black;
+	font-weight:bold;
+	font-size: 180%;
+	font-style: oblique;
+}
+
+ol
+{
+	text-align:left;
+	color:black;
+	font-size: 100%;
+	font-family: amaranth; 
+	font-style: normal;
+}
+
+ol a
+{
+  display: block;
+  color: #000;
+  padding: 3%;
+  text-decoration: none;
+}
+
+ol a:hover:not(.active) 
+{
+  background-color: #555;
+  color: white;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+ul a
+{
+  display: block;
+  color: #000;
+  padding: 10%;
+  text-decoration: none;
+  font-size: 126%;
+}
+
+ul a:hover:not(.active) 
+{
+  background-color: #555;
+  color: white;
+}
+

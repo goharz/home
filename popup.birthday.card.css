@@ -1,0 +1,100 @@
+body
+{
+	background-image: url("Images/birthday.background.jpg");
+	background-size: cover;
+	background-position: center; 
+	margin: 0;
+}
+
+h1
+{
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	font-size: 800%;
+	font-style: oblique;
+}
+/* Intentionally set text size as “800%” as it covers the page and is creatively different */
+
+h2, h3
+{
+	text-align:left;
+	color:black;
+	font-weight:bold;
+	font-size: 180%;
+	font-style: oblique;
+}
+
+p
+{
+	text-align:center;
+	color:black;
+	font-size: 105%;
+	font-family: sans-serif; 
+	font-style: oblique;
+}
+
+ol
+{
+	text-align:left;
+	color:black;
+	font-size: 105%;
+	font-family: amaranth; 
+	font-style: normal;
+}
+
+ table
+{
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	border-collapse: collapse;
+}
+
+table, th, td 
+{
+  border: solid black;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15.1%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul a 
+{
+  display: block;
+  color: #000;
+  padding: 10%;
+  text-decoration: none;
+  font-size: 127%;
+}
+
+ul a:hover:not(.active) 
+{
+  background-color: #555;
+  color: white;
+}
+
+.box .imgBx
+{
+	width: 80%;
+}
+
+.box .imgBx .card
+{
+	display: block;
+    margin-left: 10%;
+	width: 40%;
+	height: 47%;
+	float: right;
+	border: black;
+	margin-bottom: 5%;
+}
