@@ -10,7 +10,7 @@ h1
 	text-align:center;
 	color:black;
 	font-weight:bold;
-	font-size: 400%;
+	font-size: 30pt;
 	font-style: oblique;
 }
 
@@ -18,7 +18,7 @@ p
 {
 	text-align:center;
 	color:black;
-	font-size: 105%;
+	font-size: 20pt;
 	font-family: sans-serif; 
 	font-style: oblique;
 }
